@@ -7,7 +7,6 @@
     font-size: 2rem;
     text-decoration: none;
     transition: transform 0.3s ease, color 0.3s ease;
-    /* Adjusts zoom speed and smooth color transition */
 }
 
 .brand:hover {
@@ -15,15 +14,25 @@
     color: #ef8172;
     transform: scale(1.05);
     text-decoration: none;
-    /* Ensures underline doesn’t appear on hover */
 
 }
 
 .header {
+    position: fixed; 
+    top: 0;          
+    left: 0;     
+    width: 100%; 
+    padding: 2% 5% 2% 5%;
+    z-index: 1000;  
     background-color: #DFF2EB;
     display: flex;
-    padding: 2% 5% 3% 5%;
 }
+
+/* Adjust the content below the header so it doesn't overlap */
+.info {
+    margin-top: 100px; 
+}
+
 
 .header button {
     margin-left: auto;
