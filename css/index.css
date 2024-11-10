@@ -1,0 +1,201 @@
+/* HEADER */
+.brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #1E3E62;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    /* Adjusts zoom speed and smooth color transition */
+}
+
+.brand:hover {
+
+    color: #ef8172;
+    transform: scale(1.05);
+    text-decoration: none;
+    /* Ensures underline doesn’t appear on hover */
+
+}
+
+.header {
+    background-color: #DFF2EB;
+    display: flex;
+    padding: 2% 5% 3% 5%;
+}
+
+.header button {
+    margin-left: auto;
+    /* Push the links to the right */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 200px;
+    font-size: 1.2rem;
+}
+
+
+
+
+/*INFO SECTION*/
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFF2EB;
+    gap: 13rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.info_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.info_left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-top: 5%;
+    color: #0B192C;
+    letter-spacing: 0.1rem;
+    font-weight: 460;
+}
+
+.info_left h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E3E62;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.info_msg {
+    color: #ef8172;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.info_right {
+    width: auto;
+    margin-right: 0%;
+    align-self: flex-start;
+}
+
+.info_right img {
+    height: 70vh;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+    box-shadow: 3px 3px 10px #1d2e425b;
+}
+
+.github_button {
+    margin-top: 5%;
+    text-decoration: none;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.github_button a {
+    font-size: 1.2rem;
+    padding: 8px 30px;
+    background-color: #1E3E62;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block; /* Allows scaling */
+}
+
+.github_button a:hover {
+    background-color: #ef8172;
+    color: white;
+    text-decoration: none;
+    transform: scale(1.05);
+
+}
+
+
+
+/*FACTS*/
+
+.about_container {
+    background-color: white;
+    padding: 7% 12%;
+    position: relative;
+  }
+
+  .fact_heading_box{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3%;
+  }
+
+  .fact_heading_box h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #1E3E62;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .facts {
+    text-align: center;
+    padding: 5% 5%;
+  }
+  
+  .facts-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    padding: 5%;
+  }
+  
+  .facts-icon:hover{
+    color: #ff4c66;
+  }
+
+  .row h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E3E62;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .row p {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E3E62;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 5%;
+    letter-spacing: 0.05rem;
+  }
+
+
+
+  /* Footer */
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DFF2EB;
+    padding: 5% 15%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8f8f8f;
+  }
+  
+  .sm-icons {
+    padding: 3% 1%;
+    text-decoration: none;
+    color: #8f8f8f;
+  }
+
+  .sm-icons:hover{
+    text-decoration: none;
+    color: #ff4c66;
+  }
+
