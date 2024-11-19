@@ -107,6 +107,7 @@
 .github_button {
   margin-top: 5%;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .github_button a {
@@ -407,7 +408,7 @@
 
   .info {
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 75px;
     padding: 20px 30px 40px 30px;
     gap: 20px;
   }
