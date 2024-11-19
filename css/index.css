@@ -348,7 +348,7 @@
 .portfolio-image {
   height: 150px;
   background-size: cover;
-  background-position: center;
+  background-position:top;
 }
 
 .portfolio-content {
@@ -366,9 +366,12 @@
 }
 
 .portfolio-content .btn {
+  padding: 5px 15px;
   margin-top: 10px;
   background-color: #1E3E62;
   color: #fff;
+  border-radius: 10px;
+
 }
 
 .portfolio-content .btn:hover {
