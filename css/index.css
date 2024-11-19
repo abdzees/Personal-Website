@@ -34,7 +34,7 @@
 }
 
 
-.header button {
+.header .button_head {
   margin-left: auto;
   /* Push the links to the right */
   font-family: "Montserrat", sans-serif;
@@ -144,6 +144,14 @@
   display: flex;
   margin-bottom: 3%;
 }
+
+.fact_heading_box h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #1E3E62;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 
 .fact_heading_box h3 {
   font-family: 'Montserrat', sans-serif;
@@ -380,52 +388,26 @@
 }
 
 
-/* @media (max-width:800px) {
-  .contact_inputs {
-    width: 80vw;
-  }
-
-  .contact_left {
-    display: none;
-  }
-
-  .info_right {
-    display: none;
-  }
-
-  .info_left {
-    width: 80vw;
-  }
-
-  .header {
-    width: 100vw;
-    height: 100px;
-  }
-
-  .header button {
-    width: 150px;
-    height: 50px;
-  }
-} */
-
-
 
 @media (max-width: 600px) {
+
+  .brand {
+    font-size: 1.3rem;
+  }
   .header {
     flex-direction: row;
     align-items: center;
     padding: 5%;
-    font-size: 0.8rem;
   }
 
-  .header button {
-    margin-top: 0;
+  .header .button_head {
     width: auto;
-    font-size: 1rem;
+    font-size: 1rem; 
   }
 
   .info {
     flex-direction: column;
+    margin-top: 80px;
     padding: 20px 30px 40px 30px;
     gap: 20px;
   }
@@ -435,21 +417,49 @@
     margin: 0;
   }
 
-  .info_left p, .info_left h2 {
+  .info_left p {
+    font-size: 1.2rem;
+    padding: 2% 5%;
+  }
+  
+  .info_left h2 {
+    font-size: 2rem;
     text-align: left;
     padding: 2% 5%
+  }
+
+  .info_msg {
+    font-size: 1.5rem;
   }
 
   .info_right img {
     display: none; /* Hide the info picture on phones */
   }
 
+  .github_button a{
+    margin-left: 4%;
+    padding:  2% 8%;
+  }
+
   .about_container {
     padding: 50px 50px;
   }
 
+  .about_container h2 {
+    font-size: 2rem;
+  }
+
+  .about_container h3 {
+    font-size: 1.5rem;
+  }
+
+  .about_container p {
+    font-size: 1rem;
+  }
+
   .facts {
-    padding: 20px;
+    padding: 20px; 
+    font-size: 80%;
   }
 
   .contact_me_container {
@@ -462,6 +472,9 @@
     align-items: center;
   }
 
+  .contact_right_title h2 {
+    font-size: 2rem;
+  }
   .contact_inputs {
     width: 100%;
   }
@@ -478,7 +491,23 @@
     padding: 40px 10px;
   }
 
+  .portfolio_heading {
+    font-size: 2rem;
+  }
   .portfolio-card {
     width: 85%;
   }
+
+#footer {
+  padding: 5% 10%;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+#footer .sm-icons {
+  padding: 2% 1%;
+  font-size: 0.8rem;
+}
 }
